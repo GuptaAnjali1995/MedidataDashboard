@@ -1,0 +1,92 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+/* nav ul a,
+nav .brand-logo {
+  color: #444;
+} */
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+  font-size: 55px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+  /* Contact us */
+
+.site_contact .site_contact__card {
+  background: #f7f9fb;
+  padding: 64px 92px;
+  border-radius: 10px;
+  min-height: 475px;}
+
+  .site_contact .site_contact__card_loc {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 650;
+    letter-spacing: -0.8px;
+    line-height: 36px;
+    margin-bottom: 2%;}
+
+    .site_contact .site_contact__card_text {
+      color: rgba(0, 0, 0, 0.8);
+      font-size: 16px;
+      font-weight: 300;
+      letter-spacing: -0.2px;
+      line-height: 28px;
+      display: flex;
+      margin-top: 20px;}
+
+      .site_contact .site_contact__card_btn {
+        margin-top: 37px;
+    }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+

@@ -1,0 +1,149 @@
+html, body
+{
+	font:normal normal normal 100%/1.4 tahoma, sans-serif;
+	background:#f9f9f9;
+	color:#000;
+}
+body
+{
+	font-size:0.8em;
+}
+
+/* draggable targets 
+[data-draggable="target"]
+{
+	float:left;
+	list-style-type:none;
+	
+	width:42%;
+	height:7.5em;
+	overflow-y:auto;
+	
+	margin:0 0.5em 0.5em 0;
+	padding:0.5em;
+	
+	border:2px solid #888;
+	border-radius:0.2em;
+	
+	background:#ddd;
+	color:#555;
+}
+
+/* draggable items 
+[data-draggable="item"]
+{
+	display:block;
+	list-style-type:none;
+	
+	margin:0 0 2px 0;
+	padding:0.2em 0.4em;
+	
+	border-radius:0.2em;
+	
+	line-height:1.3;
+}
+
+
+/*list items */
+
+
+
+[draggable] {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    /* Required to make elements draggable in old WebKit */
+    -khtml-user-drag: element;
+    -webkit-user-drag: element;
+
+    list-style: none
+  }
+  [draggable1] {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    /* Required to make elements draggable in old WebKit */
+    -khtml-user-drag: element;
+    -webkit-user-drag: element;
+
+    list-style: none
+  }
+  
+  #columns {
+    list-style-type: none;
+  }
+  
+  .column {
+    width: 162px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+    cursor: move;
+    list-style: none;
+    vertical-align: middle;
+    position: relative;
+    left: 29%;
+  }
+  .column header {
+    height: 45px;
+    width: 150px;
+    color: black;
+    background-color: #ccc;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 10px;
+    border: 2px solid #666666;
+  }
+  
+  .column.dragElem {
+    opacity: 0.4;
+  }
+  .column.over {
+    border: 2px dashed #000;
+    border-top: 2px solid blue;
+  }
+
+  ul.entries li {
+    display:table-cell;
+}
+
+  .flag{
+    height: 150px;
+    width: 270px;
+  }
+  .dropbox{
+    height:300px;
+    width:293px;
+    margin-left: 30%;
+    border: 10px black;
+  }
+
+  .icon-block{
+    
+    border: 1px solid lightslategrey;
+    box-shadow: 6px -4px 11px 3px #888888;
+  }
+
+
+  /*button */
+
+  .hospital{
+
+    text-align: center;
+    cursor: move;
+    list-style: none;
+    vertical-align: middle;
+    
+    margin: 5% 0;
+    width:190px;
+    border-radius: 12px;
+    
+
+  }
+
+  .home{
+    margin-left: 5%;;
+  }
+  

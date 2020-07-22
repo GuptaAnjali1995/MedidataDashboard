@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Medidata Basics</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center blue-text  darken-4">Medidata Basics</h1>
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      
+    
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="image1.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <a href="drugstudy1.html"><h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Drug Study 1</h5></a>
+
+            <p class="light">We did most of the study on the corona effected people in India and china in various hospitals of mostly effected cities of both the countries.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <a href="drugstudy2.html"><h2 class="center brown-text"><i class="material-icons">local_hospital
+            </i></h2>
+            <h5 class="center">Drug Study 2</h5></a>
+
+            <p class="light">We did most of the study on the corona effected people in America and Brazil in various hospitals of mostly effected cities of both the countries.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <a href="drugstudy3.html"><h2 class="center brown-text"><i class="material-icons">local_pharmacy</i></h2>
+            <h5 class="center">Drug Study 3</h5></a>
+
+            <p class="light">We did most of the study on the corona effected people in France and United Kingdom in various hospitals of mostly effected cities of both the countries.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="image3.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <h3><i class="mdi-content-send brown-text"></i></h3>
+        <h4>Contact Us</h4>
+        <div class= "col s6">
+          <img style="height:400px;" src="dassault-systemes-agra-fort-building.jpg"/>
+        </div>
+
+      
+        <div class="col s6 center">     
+          <div id="googleMap" style="width:100%;height:400px;"></div>   
+        </div>
+      </div>
+        <div class="row center"> <h4>Dassault Systemes (Agrafort)</h4></div>
+        
+     
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="image2.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l4 s12">
+          
+          <img src="images/anjali.jpg" alt="" class="circle responsive-img" style="height: 160px;">
+          <h5><p><b>Anjali Gupta</b></p></h5><span><p>eConsent(Web)</p></span>
+        
+        </div>
+        <div class="col l8 s12">
+         <h4 class="white-text"> <b>About us</b></h4>
+          <b>Education:</b> <span>B.Tech (EEE), Ghaziabad </span>
+         <p>  <b>  Previous Organisation:</b> Tata Consultancy Services</p> 
+          <p class="grey-text text-lighten-4"><b>Professional Background:</b> Total 3.3 years of experience in web development. Worked in HTML, CSS, Javascript.
+           Mainly worked in React js, Bootstrap, materialize frameworks. Have knowledge of Node js as well.
+          </p>
+          <p><b>Interest Areas/Hobbies:</b> Painting, Cooking, Surfing Intenet etc. </p>
+          
+
+
+        </div>
+        
+        
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+     <b class="center" style="margin-left: 35%;"> Medidata joins Dassault systemes</div></b>      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+
+  <script>
+    function myMap() {
+    
+
+    // The location of Uluru
+  var uluru = {lat: 18.5914647, lng: 73.7308291};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('googleMap'), {zoom: 9, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+    }
+    </script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBduqEe2lSEvwwMu82YNJMj94Z3kssOZto&callback=myMap"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
